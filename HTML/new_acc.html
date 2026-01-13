@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<title>the_website</title>
+		<link
+			href="../CSS/main.css"
+			rel="stylesheet"
+		/>
+	</head>
+	<body>
+		<header>New account creation</header>
+		<form
+			action="../php/new_user.php"
+			method="POST"
+		>
+			<fieldset>
+				<legend>Enter your details</legend>
+				<label>First Name: <input type="text" /></label><br />
+				<label>Last Name: <input type="text" /></label><br />
+				<label>Middle Name: <input type="text" /></label><br />
+				<label>User Name: <input type="text" /></label><br />
+				<label>Email : <input type="text" /></label><br />
+				<label>Password : <input type="text" /></label><br />
+				<button type="submit">Create account</button>
+			</fieldset>
+		</form>
+	</body>
+</html>

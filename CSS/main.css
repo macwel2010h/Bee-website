@@ -5,11 +5,11 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.nav{
+nav{
     background-color: darkslategray;
 }
 
-.header{
+header{
     background-color: rgb(49, 48, 46);
     text-align: center;
     font-family: 'Trebuchet MS';
@@ -17,16 +17,17 @@
     padding: 1%;
 }
 
-.aside{
+aside{
     background-color: yellowgreen;
 }
 
-.body{
+body{
    padding : 0.5em; 
    height : 100vh;
+   
 }
 
-.button{
+button{
     padding: 1em;
     font-family:'Open Sans', 'Helvetica Neue', sans-serif;
     border-radius: 0.5rem;
@@ -35,17 +36,17 @@
     border-width: 0;
 }
 
-.fieldset{
+fieldset{
     padding: 2em;
-    width: 30%;
+    width: 90%;
     height: 90%;
     text-align: center;
     border-radius: 1em;
     margin-top: 2em;
 }
 
-.form{
-    width:90%;
+form{
+    width:50%;
     height: 90%;
 }
 
@@ -55,5 +56,6 @@ input{
 }
 
 .new_acc{
-    float: right;
+   
+    width : 30%;
 }
