@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 	<head>
 		<meta charset="UTF-8" />
@@ -11,6 +11,12 @@
 			href="../CSS/main.css"
 			rel="stylesheet"
 		/>
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+			crossorigin="anonymous"
+		/>
 	</head>
 	<body>
 		<header>New account creation</header>
@@ -20,12 +26,42 @@
 		>
 			<fieldset>
 				<legend>Enter your details</legend>
-				<label>First Name: <input type="text" /></label><br />
-				<label>Last Name: <input type="text" /></label><br />
-				<label>Middle Name: <input type="text" /></label><br />
-				<label>User Name: <input type="text" /></label><br />
-				<label>Email : <input type="text" /></label><br />
-				<label>Password : <input type="text" /></label><br />
+				<label
+					>First Name:
+					<input
+						type="text"
+						name="first_name" /></label
+				><br />
+				<label
+					>Last Name:
+					<input
+						type="text"
+						name="last_name" /></label
+				><br />
+				<label
+					>Middle Name:
+					<input
+						type="text"
+						name="middle_name" /></label
+				><br />
+				<label
+					>User Name:
+					<input
+						type="text"
+						name="username" /></label
+				><br />
+				<label
+					>Email :
+					<input
+						type="text"
+						name="email" /></label
+				><br />
+				<label
+					>Password :
+					<input
+						type="text"
+						name="password" /></label
+				><br />
 				<button type="submit">Create account</button>
 			</fieldset>
 		</form>

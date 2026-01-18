@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
 	<head>
 		<meta charset="UTF-8" />
@@ -11,12 +11,26 @@
 	<body class="body">
 		<header class="header"><h1>The website</h1></header>
 
-		<form class="form">
+		<form
+			class="form"
+			method="POST"
+			action="php/sign_in.php"
+		>
 			<fieldset class="fieldset">
 				<legend><h1>Sign In</h1></legend>
-				<label> Email : <input type="text" /></label>
+				<label>
+					Email :
+					<input
+						type="text"
+						name="email"
+				/></label>
 				<br />
-				<label> Password : <input type="password" /></label>
+				<label>
+					Password :
+					<input
+						type="password"
+						name="password"
+				/></label>
 				<br />
 				<button
 					class="button"

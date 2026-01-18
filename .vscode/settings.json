@@ -1,0 +1,81 @@
+{
+	// Default formatter
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+
+	// Format on save
+	"editor.formatOnSave": true,
+
+	// Format on paste
+	"editor.formatOnPaste": true,
+
+	// Language-specific formatters
+	"[html]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[css]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[php]": {
+		"editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+	},
+	"[javascript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[javascriptreact]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[typescript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[typescriptreact]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[json]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[jsonc]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[c]": {
+		"editor.defaultFormatter": "ms-vscode.cpptools"
+	},
+	"[cpp]": {
+		"editor.defaultFormatter": "ms-vscode.cpptools"
+	},
+	"[java]": {
+		"editor.defaultFormatter": "redhat.java"
+	},
+	"[python]": {
+		"editor.defaultFormatter": "ms-python.vscode-pylance"
+	},
+	"[sql]": {
+		"editor.defaultFormatter": "inferrinizzard.prettier-sql-vscode"
+	},
+	"[terraform]": {
+		"editor.defaultFormatter": "hashicorp.terraform"
+	},
+	"[terraform-vars]": {
+		"editor.defaultFormatter": "hashicorp.terraform"
+	},
+	"[dockerfile]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+
+	// Prettier configuration
+	"prettier.tabWidth": 4,
+	"prettier.useTabs": true,
+	"prettier.singleQuote": false,
+	"prettier.printWidth": 120,
+
+	// PHP Intelephense configuration
+	"intelephense.format.braces": "k&r",
+
+	// C/C++ configuration
+	"C_Cpp.formatting": "default",
+
+	// Python configuration
+	"python.formatting.provider": "none",
+
+	// Terraform configuration
+	"terraform.experimentalFeatures.validateOnSave": true
+}

@@ -1,5 +1,5 @@
 <?php
-    $connString = "mysql:dbname=database;host=localhost;port=3306";
+    $connString = "mysql:dbname=the_website_db;host=localhost;port=3306";
     $user = "root";
     $pass = "Abcd@1234";
     $port = "3306";
@@ -12,3 +12,5 @@
         echo "Connection failed: " . $e->getMessage();
     }
 ?>
+
+
