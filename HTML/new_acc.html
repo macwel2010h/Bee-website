@@ -1,5 +1,10 @@
 <!doctype html>
 <html lang="en">
+	<meta charset="utf-8" />
+	<meta
+		name="viewport"
+		content="width=device-width, initial-scale=1"
+	/>
 	<head>
 		<meta charset="UTF-8" />
 		<meta
@@ -19,7 +24,23 @@
 		/>
 	</head>
 	<body>
-		<header>New account creation</header>
+		<nav class="navbar bg-body-tertiary">
+			<div class="container-fluid">
+				<a
+					class="navbar-brand"
+					href="#"
+				>
+					<img
+						src="../rsc/nav_logo.svg"
+						alt="Logo"
+						width="30"
+						height="24"
+						class="d-inline-block align-text-top"
+					/>
+					The Website
+				</a>
+			</div>
+		</nav>
 		<form
 			action="../php/new_user.php"
 			method="POST"
@@ -62,7 +83,12 @@
 						type="text"
 						name="password" /></label
 				><br />
-				<button type="submit">Create account</button>
+				<button
+					type="submit"
+					class="btn btn-warning"
+				>
+					Create account
+				</button>
 			</fieldset>
 		</form>
 	</body>

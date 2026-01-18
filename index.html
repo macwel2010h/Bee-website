@@ -1,5 +1,10 @@
 <!doctype html>
-<html>
+<html lang="en">
+	<meta charset="utf-8" />
+	<meta
+		name="viewport"
+		content="width=device-width, initial-scale=1"
+	/>
 	<head>
 		<meta charset="UTF-8" />
 		<title>Hello world!!</title>
@@ -7,42 +12,81 @@
 			href="CSS/main.css"
 			rel="stylesheet"
 		/>
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+			crossorigin="anonymous"
+		/>
 	</head>
 	<body class="body">
-		<header class="header"><h1>The website</h1></header>
+		<nav class="navbar bg-body-tertiary">
+			<div class="container-fluid">
+				<a
+					class="navbar-brand"
+					href="#"
+				>
+					<img
+						src="rsc/nav_logo.svg"
+						alt="Logo"
+						width="30"
+						height="24"
+						class="d-inline-block align-text-top"
+					/>
+					The Bee-Hive
+				</a>
+			</div>
+		</nav>
 
 		<form
-			class="form"
+			class="form col-8"
 			method="POST"
 			action="php/sign_in.php"
 		>
-			<fieldset class="fieldset">
+			<fieldset class="card">
 				<legend><h1>Sign In</h1></legend>
-				<label>
-					Email :
+				<div class="mb-3">
+					<label
+						for="exampleFormControlInput1"
+						class="form-label"
+						>Email address</label
+					>
 					<input
-						type="text"
-						name="email"
-				/></label>
-				<br />
-				<label>
-					Password :
-					<input
-						type="password"
-						name="password"
-				/></label>
-				<br />
+						type="email"
+						class="form-control"
+						id="exampleFormControlInput1"
+						placeholder="name@example.com"
+					/>
+				</div>
+				<label
+					for="inputPassword5"
+					class="form-label"
+					>Password</label
+				>
+				<input
+					type="password"
+					id="inputPassword5"
+					class="form-control"
+					aria-describedby="passwordHelpBlock"
+				/>
+				<div
+					id="passwordHelpBlock"
+					class="form-text"
+				>
+					Your password must be 8-20 characters long, contain letters and numbers, and must not contain
+					spaces, special characters, or emoji.
+				</div>
 				<button
-					class="button"
+					class="btn btn-warning"
 					type="submit"
 				>
-					Submit
+					Log In
 				</button>
 			</fieldset>
 		</form>
-		<div class="new_acc">
+		<div class="new_acc col-4">
 			<p>Do not have an account?</p>
-			<a href="HTML/new_acc.html"><button class="button">Register</button></a>
+			<a href="HTML/new_acc.html"><button class="btn btn-warning">Register</button></a>
 		</div>
 	</body>
 </html>

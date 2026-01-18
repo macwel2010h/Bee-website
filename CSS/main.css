@@ -6,11 +6,13 @@
 		"Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
-nav {
-	background-color: darkslategray;
+.navbar {
+	position: absolute;
+	display: block;
+	width: 100vb;
 }
 
-header {
+.header {
 	background-color: rgb(49, 48, 46);
 	text-align: center;
 	font-family: "Trebuchet MS";
@@ -18,15 +20,17 @@ header {
 	padding: 1%;
 }
 
-aside {
+.aside {
 	background-color: yellowgreen;
 }
 
-body {
+.body {
 	height: 100vh;
+	display: flex;
+	justify-content: center;
 }
 
-button {
+.button {
 	padding: 1em;
 	font-family: "Open Sans", "Helvetica Neue", sans-serif;
 	border-radius: 0.5rem;
@@ -35,7 +39,7 @@ button {
 	border-width: 0;
 }
 
-fieldset {
+.fieldset {
 	padding: 2em;
 	width: 90%;
 	height: 90%;
@@ -44,12 +48,12 @@ fieldset {
 	margin-top: 2em;
 }
 
-form {
+.form {
 	width: 50%;
 	height: 90%;
 }
 
-input {
+.input {
 	margin-bottom: 1em;
 	border-style: none none solid none;
 }
