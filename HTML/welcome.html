@@ -1,16 +1,10 @@
 <!doctype html>
 <html lang="en">
 	<meta charset="utf-8" />
-	<meta
-		name="viewport"
-		content="width=device-width, initial-scale=1"
-	/>
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<head>
 		<title>Welcome</title>
-		<link
-			href="../CSS/main.css"
-			rel="stylesheet"
-		/>
+		<link href="../CSS/main.css" rel="stylesheet" />
 		<link
 			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
 			rel="stylesheet"
@@ -19,13 +13,10 @@
 		/>
 	</head>
 
-	<body>
-		<nav class="navbar bg-body-tertiary">
-			<div class="container-fluid">
-				<a
-					class="navbar-brand"
-					href="#"
-				>
+	<body class="d-flex flex-column min-vh-100 bg_img">
+		<nav class="navbar bg-dark fixed-top p-0 m-0">
+			<div class="container-fluid text-warning bg-dark">
+				<a class="navbar-brand text-warning" href="#">
 					<img
 						src="../rsc/nav_logo.svg"
 						alt="Logo"
@@ -33,10 +24,37 @@
 						height="24"
 						class="d-inline-block align-text-top"
 					/>
-					The Website
+					The Bee-Hive
 				</a>
 			</div>
 		</nav>
-		<h1>Your account has been created!!</h1>
+		<div class="d-flex flex-column justify-content-center align-items-center flex-grow-1">
+			<div class="card shadow-lg p-4 bg-body-tertiary rounded" style="width: 60%; max-width: 600px">
+				<h1>Welcome to the Bee-Hive..</h1>
+				<h3>click the button below to log in....</h3>
+				<button class="btn btn-warning w-100">Go to Log in</button>
+			</div>
+		</div>
+
+		<footer class="py-3 my-4">
+			<ul class="nav justify-content-center border-bottom pb-3 mb-3">
+				<li class="nav-item">
+					<a href="#" class="nav-link px-2 text-body-secondary">Home</a>
+				</li>
+				<li class="nav-item">
+					<a href="#" class="nav-link px-2 text-body-secondary">Features</a>
+				</li>
+				<li class="nav-item">
+					<a href="#" class="nav-link px-2 text-body-secondary">Pricing</a>
+				</li>
+				<li class="nav-item">
+					<a href="#" class="nav-link px-2 text-body-secondary">FAQs</a>
+				</li>
+				<li class="nav-item">
+					<a href="#" class="nav-link px-2 text-body-secondary">About</a>
+				</li>
+			</ul>
+			<p class="text-center text-body-secondary">&copy; 2025 Company, Inc</p>
+		</footer>
 	</body>
 </html>

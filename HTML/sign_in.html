@@ -1,10 +1,7 @@
 <!doctype html>
 <html lang="en">
 	<meta charset="utf-8" />
-	<meta
-		name="viewport"
-		content="width=device-width, initial-scale=1"
-	/>
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<head>
 		<title>sign in</title>
 	</head>
@@ -14,13 +11,10 @@
 		integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
 		crossorigin="anonymous"
 	/>
-	<body>
-		<nav class="navbar bg-body-tertiary">
-			<div class="container-fluid">
-				<a
-					class="navbar-brand"
-					href="#"
-				>
+	<body class="d-flex flex-column min-vh-100">
+		<nav class="navbar bg-dark fixed-top p-0 m-0">
+			<div class="container-fluid text-warning bg-dark">
+				<a class="navbar-brand text-warning" href="#">
 					<img
 						src="../rsc/nav_logo.svg"
 						alt="Logo"
@@ -28,10 +22,34 @@
 						height="24"
 						class="d-inline-block align-text-top"
 					/>
-					The Website
+					The Bee-Hive
 				</a>
 			</div>
 		</nav>
-		<h1>this is sign in page</h1>
+
+		<div class="card shadow-lg p-4 bg-body-tertiary rounded" style="width: 60%; max-width: 600px">
+			<h1>this is sign in page</h1>
+		</div>
+
+		<footer class="py-3 my-4">
+			<ul class="nav justify-content-center border-bottom pb-3 mb-3">
+				<li class="nav-item">
+					<a href="#" class="nav-link px-2 text-body-secondary">Home</a>
+				</li>
+				<li class="nav-item">
+					<a href="#" class="nav-link px-2 text-body-secondary">Features</a>
+				</li>
+				<li class="nav-item">
+					<a href="#" class="nav-link px-2 text-body-secondary">Pricing</a>
+				</li>
+				<li class="nav-item">
+					<a href="#" class="nav-link px-2 text-body-secondary">FAQs</a>
+				</li>
+				<li class="nav-item">
+					<a href="#" class="nav-link px-2 text-body-secondary">About</a>
+				</li>
+			</ul>
+			<p class="text-center text-body-secondary">&copy; 2025 Company, Inc</p>
+		</footer>
 	</body>
 </html>
