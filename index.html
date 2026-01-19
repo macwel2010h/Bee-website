@@ -29,23 +29,23 @@
 
 				<form class="w-100 mb-5" method="POST" action="php/sign_in.php">
 					<div class="mb-3">
-						<label for="exampleFormControlInput1" class="form-label">Email address</label>
+						<label for="email" class="form-label">Email : </label>
 						<input
 							type="email"
 							name="email"
 							class="form-control"
-							id="exampleFormControlInput1"
 							placeholder="name@example.com"
+							required="yes"
 						/>
 					</div>
-					<div class="mb-3">
-						<label for="inputPassword5" class="form-label">Password </label>
+					<div class="mb-5">
+						<label for="password" class="form-label">Password : </label>
 						<input
 							type="password"
 							name="password"
-							id="inputPassword5"
 							class="form-control"
 							aria-describedby="passwordHelpBlock"
+							required="yes"
 						/>
 					</div>
 					<button class="btn btn-warning w-100" type="submit">Log In</button>

@@ -15,8 +15,8 @@
 		/>
 	</head>
 	<body class="d-flex flex-column min-vh-100 bg_img">
-		<div class="d-flex flex-column justify-content-center align-items-center flex-grow-1">
-			<div class="card shadow-lg p-4 bg-body-tertiary rounded" style="width: 60%; max-width: 600px">
+		<div class="d-flex flex-column justify-content-center align-items-center flex-grow-1 mt-5">
+			<div class="card shadow-lg p-4 bg-body-tertiary rounded" style="width: 60%; max-width: 700px">
 				<div class="d-flex flex-column justify-content-center align-items-center flex-grow-1 mb-5">
 					<img
 						src="../rsc/nav_logo.svg"
@@ -27,7 +27,7 @@
 					/>
 					<h3>The Bee-Hive</h3>
 				</div>
-				<form class="w-100" action="../php/new_user.php" method="POST">
+				<form class="w-100 mb-5" action="../php/new_user.php" method="POST">
 					<div class="row mb-3">
 						<div class="col">
 							<label for="first_name" class="form-label">First Name :</label>
@@ -61,6 +61,10 @@
 
 					<button type="submit" class="btn btn-warning w-100">Create account</button>
 				</form>
+				<div class="d-flex flex-column justify-content-center align-items-center flex-grow-1">
+					<p>Already have an account?</p>
+					<a href="../index.html"><button class="btn btn-warning">log in</button></a>
+				</div>
 			</div>
 		</div>
 		<footer class="py-3 my-4">

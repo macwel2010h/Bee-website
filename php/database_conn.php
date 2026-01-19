@@ -1,6 +1,6 @@
 <?php
 // Use environment variable for host (defaults to 'db' for Docker, 'localhost' for local dev)
-$host = getenv('DB_HOST') ?: 'db';
+$host = getenv('DB_HOST') ?: 'localhost';
 $dbname = getenv('DB_NAME') ?: 'the_website_db';
 $user = getenv('DB_USER') ?: 'root';
 $pass = getenv('DB_PASSWORD') ?: 'Abcd@1234';
