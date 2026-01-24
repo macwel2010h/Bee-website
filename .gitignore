@@ -1,11 +1,4 @@
-# Docker files
-Dockerfile
-docker-compose.yml
-.dockerignore
-README-DOCKER.md
 
-# Environment variables
-.env
 
 # OS files
 .DS_Store
