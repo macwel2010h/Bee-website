@@ -34,9 +34,10 @@
 					<h3>The Bee-Hive</h3>
 				</div>
 				<form
-					class="w-100 mb-5 needs-validation novalidate"
+					class="w-100 mb-5 needs-validation"
 					action="../php/new_user.php"
-					method="POST">
+					method="POST"
+					novalidate>
 					<div class="row mb-3">
 						<div class="col">
 							<label
@@ -49,8 +50,6 @@
 								name="first_name"
 								class="form-control"
 								required />
-
-							<div class="invalid-feedback">Please provide your email or username.</div>
 						</div>
 						<div class="col mb-3">
 							<label
@@ -77,7 +76,7 @@
 								name="email"
 								class="form-control"
 								required />
-							<div class="invalid-feedback">Please provide your email or username.</div>
+							<div class="invalid-feedback">Please provide a valid email address.</div>
 						</div>
 					</div>
 					<div class="row mb-5">

@@ -32,9 +32,10 @@
 				</div>
 
 				<form
-					class="w-100 mb-5 needs-validation novalidate"
+					class="w-100 mb-5 needs-validation"
 					method="POST"
-					action="php/sign_in.php">
+					action="php/sign_in.php"
+					novalidate>
 					<div class="mb-3">
 						<label
 							for="email"
@@ -47,6 +48,7 @@
 							class="form-control"
 							placeholder="name@example.com"
 							required />
+						<div class="invalid-feedback">Please enter your email or username.</div>
 					</div>
 					<div class="mb-5">
 						<label
@@ -60,6 +62,7 @@
 							class="form-control"
 							aria-describedby="passwordHelpBlock"
 							required />
+						<div class="invalid-feedback">Please enter your password.</div>
 					</div>
 					<button
 						class="btn btn-warning w-100"
