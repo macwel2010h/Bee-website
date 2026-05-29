@@ -2,10 +2,11 @@ version: "3.8"
 
 services:
     web:
+        image: bee-website-php-image
         build:
             context: ..
             dockerfile: Docker/Dockerfile
-        container_name: Bee-website-php
+        container_name: bee-website-php-container
         ports:
             - "8080:80"
         volumes:
@@ -19,9 +20,12 @@ services:
             - db
 
     db:
-        image: mysql:8.0
+        image: bee-website-mysql-image
+        build:
+            context: .
+            dockerfile_inline: FROM mysql:8.0
         restart: always
-        container_name: Bee-website-mysql
+        container_name: bee-website-mysql-container
 
         environment:
             MYSQL_ROOT_PASSWORD: Abcd@1234

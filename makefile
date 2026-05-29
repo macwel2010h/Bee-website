@@ -4,3 +4,4 @@ start:
 
 destroy:
 	@docker compose -f Docker/Docker_compose.yml down
+	@docker rmi bee-website-php-image bee-website-mysql-image
