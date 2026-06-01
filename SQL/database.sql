@@ -1,6 +1,6 @@
-CREATE DATABASE IF NOT EXISTS the_website_db;
+CREATE DATABASE IF NOT EXISTS bee_website_db;
 
-USE the_website_db;
+USE bee_website_db;
 
 CREATE TABLE users (
     user_id INT PRIMARY KEY AUTO_INCREMENT UNIQUE,
